@@ -1,0 +1,45 @@
+body{
+   font-size: 16px;
+   color: #023047;
+   background-color: #fefae0;
+   font-family: 'Oxygen', sans-serif;
+ }  
+/** HEADER **/
+#header-nav{
+  background-color: #9d0208;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img{
+  background-image: url('./Images/MyWebPhoto.png') ;/**It is for the file resides in the same directory where index, css reside**/
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+
+/*My Name*/
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #fefae0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+.navbar-brand p{
+  color: #fefae0;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+.navbar-brand p span{
+  vertical-align: middle;
+}
